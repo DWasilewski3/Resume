@@ -18,6 +18,7 @@
 - National Honor Society 
 - Programmed computers for educational use in classrooms and a greenhouse
 
+
 ## SKILLS AND COURSEWORK
 
 **Computer Programming -** Java, C++, Python, Raspberry Pi, GitHub, JavaScript, Google Apps Script, Generative AI
@@ -68,6 +69,7 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 **MSU Software Engineering and Computing Society -** Founding member, Senior Project Manager, and Chief Diversity Officer
 
 **Odyssey of the Mind** – (3 years). Team placed second in regional competition and third in state competition.
+
 
 ## COMMUNITY SERVICE
 
