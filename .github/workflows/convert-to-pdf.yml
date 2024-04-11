@@ -1,29 +1,18 @@
-name: Convert Markdown to PDF
+name: MD to PDF Conversion
 
 on:
   push:
     branches:
-      - main  # Adjust the branch name as needed
+      - main
 
 jobs:
-  build:
+  Convert:
     runs-on: ubuntu-latest
-
     steps:
-      - name: Checkout code
-        uses: actions/checkout@v2
+      - name: Clone repo
+        uses: actions/checkout@v3
 
-      - name: Install Pandoc
-        run: sudo apt-get install pandoc
-
-      - name: Convert to PDF
-        run: |
-          pandoc current.md -o David_Wasilewski_Resume.pdf
-
-      - name: Commit PDF
-        run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git add David_Wasilewski_Resume.pdf
-          git commit -m "Auto-Update Resume pdf"
-          git push
+      - name: Generate PDF from Markdown Files
+        uses: purplebearddan/ghAction-md2pdf@v1
+        with:
+          pdf_file_name: 'David_Wasilewski_Resume.pdf'
