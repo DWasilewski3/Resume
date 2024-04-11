@@ -1,6 +1,6 @@
 <h1 align = "center">DAVID WASILEWSKI</h1>
 
-<p align = "center">[DWasilewski393@gmail.com](mailto:dwasilewski393@gmail.com) ● Grand Rapids/East Lansing Michigan</p>
+<p align="center"><a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a> ● Grand Rapids/East Lansing Michigan</p>
 
 
 ## EDUCATION
