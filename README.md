@@ -49,7 +49,7 @@ Independently managed facility projects including landscaping and lawn care, tra
 Tutored 50+ college, high school, and junior high school students in computer science, math, statistics, physics, and Spanish through individual and group in-person and virtual meetings
 
 
-## Projects
+## Recent Projects
 
 **Python Library -** Created and currently maintain a Pyton library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
 
