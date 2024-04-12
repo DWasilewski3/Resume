@@ -1,13 +1,11 @@
-# .github/workflows/convert-to-pdf.yml
 name: Docs to PDF
-# This workflow is triggered on pushes to the repository.
+
 on:
   push:
     branches:
       - main
     paths:
-      - '.'
-      - './README.md'
+      - 'README.md'
 
 jobs:
   converttopdf:
@@ -16,13 +14,12 @@ jobs:
     steps:
       - uses: baileyjm02/markdown-to-pdf@v1
         with:
-          input_dir: '.README.md'
-          output_dir: '.'
-          images_dir: '.'
-          image_import: '.'
+          input_dir: .
+          output_dir: .
+          images_dir: .
+          image_import: .
           build_html: false
       - uses: actions/upload-artifact@v3
         with:
-          name: '.David_Wasilewski_Resume.pdf'
-          path: '.'
-
+          name: David_Wasilewski_Resume
+          path: .

@@ -13,7 +13,7 @@
 - **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, ARM Assembly, Python, C++, managerial accounting, corporate finance, business management, business law
 
 ### **Forest Hills Central High School –** Ada, MI 2018-2022 
-- Received Excellence in Computer Science Award, 
+- Received Excellence in Computer Science Award
 - Honor Roll
 - National Honor Society 
 - Programmed computers for educational use in classrooms and a greenhouse
