@@ -55,9 +55,9 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 **MSU Dining Web Scraper -** Created JavaScript code to web scrape websites for dining on campus and filter based on student preferences. Available on [GitHub](https://github.com/DWasilewski3/EatAtState_Menu_Scraping)
 
-**MSU Bus Route Redesign -** As a submission for SpartaHack9, worked with a group to redesign and model new bus routes on campus. Available on [GitHub](https://github.com/DWasilewski3/Spartahack9-BusProject) and [Devpost](https://devpost.com/software/bus-route-project)
+**MSU Bus Route Redesign -** As a submission for SpartaHack9, worked with a group to redesign and model new bus routes on campus. Available on [GitHub](https://github.com/DWasilewski3/Spartahack9-BusProject) and [Devpost](https://devpost.com/software/bus-route-project). Won the best hack for sustainability award
 
-**MSU Student Wifi Helper -** As a submission for SpartaHack8, worked with a group to create a machine learning based image processing model used to identify devices and assist students and faculty in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection)
+**MSU Student Wifi Helper -** As a submission for SpartaHack8, worked with a group to create a machine learning based image processing model used to identify devices and assist students and faculty in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix (MLH prize)
 
 
 ## EXTRACURRICULARS
