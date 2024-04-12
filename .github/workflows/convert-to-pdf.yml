@@ -1,5 +1,3 @@
-name: Docs to PDF
-
 on:
   push:
     branches:
@@ -16,7 +14,7 @@ jobs:
       - name: Install Pandoc
         run: sudo apt-get update && sudo apt-get install pandoc
       - name: Convert Markdown to PDF
-        run: pandoc --pdf-engine=weasyprint README.md -o README.pdf
+        run: pandoc --pdf-engine=weasyprint /github/workspace/README.md -o README.pdf
       - uses: actions/upload-artifact@v3
         with:
           name: David_Wasilewski_Resume
