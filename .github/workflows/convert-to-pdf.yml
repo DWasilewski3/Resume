@@ -1,21 +1,28 @@
+name: Convert README to PDF
+
 on:
   push:
     branches:
-      - main
-    paths:
-      - 'README.md'
-      - '.github/workflows/convert-to-pdf.yml'
+      - main  # Adjust this branch name if needed
 
 jobs:
-  converttopdf:
-    name: Build PDF
+  build:
     runs-on: ubuntu-latest
+
     steps:
-      - name: Install Pandoc
-        run: sudo apt-get update && sudo apt-get install pandoc
-      - name: Convert Markdown to PDF
-        run: pandoc --pdf-engine=weasyprint /github/workspace/README.md -o README.pdf
-      - uses: actions/upload-artifact@v3
-        with:
-          name: David_Wasilewski_Resume
-          path: .
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install dependencies
+        run: npm install -g md-to-pdf
+
+      - name: Create output folder
+        run: mkdir -p _output
+
+      - name: Convert README to PDF
+        run: |
+          cd path/to/your/markdown/files  # Adjust the path to your markdown files
+          for f in *.md; do
+            cat "$f"
+            echo
+          done | md-to-pdf > ../_output/result.pdf
