@@ -21,7 +21,6 @@ jobs:
 
       - name: Convert README to PDF
         run: |
-          cd path/to/your/markdown/files  # Adjust the path to your markdown files
           for f in *.md; do
             cat "$f"
             echo
