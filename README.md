@@ -62,7 +62,7 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 ## EXTRACURRICULARS
 
-**Boy Scouts of America –** Earned Eagle Scout rank. Selected for the Governor’s Honor Guard on Mackinac Island for three consecutive summers. Numerous leadership roles.
+**Boy Scouts of America –** Earned Eagle Scout rank. Selected for the Governor’s Honor Guard on Mackinac Island for three consecutive summers. Numerous leadership roles
 
 **Spartan Hackers Club -** Member. Participated in four Hackathons and had two award-winning projects
 

@@ -9,6 +9,8 @@ on:
     paths:
       - '.github/workflows'
       - 'README.md'
+    tags:
+      - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
 jobs:
   converttopdf:
@@ -47,4 +49,4 @@ jobs:
             app/build/outputs/apk/release/app-release-unsigned.apk
             other/files/as/needed
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.TOKEN }}
