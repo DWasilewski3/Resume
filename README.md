@@ -73,7 +73,7 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 ## COMMUNITY SERVICE
 
-**Boy Scouts**- Highway clean-up, Eagle Scout projects, Mackinac Island State Park
+**Boy Scouts of America**- Highway clean-up, Eagle Scout projects, Mackinac Island State Park
 
 **Governor’s Honor Guard –** Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park (2017 - 2019)
 
