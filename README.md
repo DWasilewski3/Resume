@@ -28,8 +28,10 @@
 
 ## PROFESSIONAL EXPERIENCE
 
-**CasterDepot -** Wayland, MI
+**Eide Bailly -** *May 2024 - Present*  
+Microsoft Development intern. Developed custom solutions for clients using various Microsoft Softwares
 
+**CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
 Continued previous roles and began software development with Javascript, SQL, and Python including bulk product additions and database information updates
 
@@ -68,13 +70,17 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 **MSU Software Engineering and Computing Society -** Founding member, Senior Project Manager, and Chief Diversity Officer
 
-**Odyssey of the Mind** – (3 years). Team placed second in regional competition and third in state competition.
+**Odyssey of the Mind -** *3 years* Member of a youth creative project creation and demonstartion team which placed second in regional competition and third in state competition.
 
 
-## COMMUNITY SERVICE
+## VOLUNTEER SERVICE
 
-**Boy Scouts of America -** Highway clean-up, Eagle Scout projects, Mackinac Island State Park
+**Student Advisor to MSU CSE Committees -** *2024-2025 academic year*  
+Served as the peer appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Undergraduate Curriculum Committee. Worked with faculty to improve content and experiences for undergraduate computer science engineering students
 
-**Governor’s Honor Guard –** Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park (2017 - 2019)
+**Boy Scouts of America -** Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours
 
-**Kids Food Basket -** Helped design and fill lunch bags. Worked on many food collection campaigns
+**Governor’s Honor Guard –** *2017 - 2019*  
+Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park 
+
+**Kids Food Basket -** Helped design and fill lunch bags. Worked on numerous food collection and preparation campaigns
