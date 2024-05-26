@@ -1,6 +1,7 @@
 <h1 align = "center">DAVID WASILEWSKI</h1>
 
-<p align="center"><a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a> ● Grand Rapids/East Lansing Michigan</p>
+<p align="center"><a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a> ● Grand Rapids/East Lansing Michigan
+<br>Connect with me on <a href="(https://www.linkedin.com/in/david-wasilewski/)">LinkedIn</a></p>
 
 
 ## EDUCATION
@@ -8,7 +9,7 @@
 ### **Michigan State University -** East Lansing, MI 
 - **Expected Graduation:** Spring 2025
 - **Major:** Engineering, Computer Science
-- **Current cumulative GPA:** 3.621
+- **Current cumulative GPA:** 3.546
 - **Minors:** General Business, Computational Modeling Statistics and Engineering (CMSE)
 - **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, ARM Assembly, Python, C++, managerial accounting, corporate finance, business management, business law
 
@@ -21,31 +22,31 @@
 
 ## SKILLS AND COURSEWORK
 
-**Computer Programming -** Java, C++, Python, Raspberry Pi, GitHub, JavaScript, Google Apps Script, Generative AI
+**Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform
 
-**Business -** Manage budgets, investments, accounting, general business law, finance, business management
+**Business -** Project management, business management, manage budgets, investments, accounting, general business law, finance
 
 
 ## PROFESSIONAL EXPERIENCE
 
 **Eide Bailly -** *May 2024 - Present*  
-Microsoft Development intern. Developed custom solutions for clients using various Microsoft Softwares
+Microsoft Development intern. Developed custom solutions for clients using various Microsoft Softwares and Salesforce
+
+**DayDream Technologies -** *Jan 2024 - Present*  
+CTO of a student-owned startup technology company. Lead multiple teams of interns on a variety of projects including XR, AI, ML, and AWS. Organized collaboration projects with various student clubs
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
 Continued previous roles and began software development with Javascript, SQL, and Python including bulk product additions and database information updates
 
  - **E-commerce intern -** *Feb 2023-July 2023*  
-Independently created and automated Amazon Storefront product uploads, data, branding, and inventory management
+Independently created an [Amazon Storefront](https://www.amazon.com/stores/CasterDepot/page/0C3FB9D6-1BE6-4344-AC64-81589AB25BDC?ref_=ast_bln) page and automated product uploads, data, branding, and inventory management
 
 **Mary Free Bed YMCA -** *March 2022-July 2023*  
 Certified lifeguard, routinely test and record pool chemicals, train new employees
 
 **CeresEd Educational Content -** *June - Sep 2021*  
 Created math lessons and updated curriculums in geometry, algebra 1, and algebra 2 for academically challenged students
-
-**Family Friends Veterinary Clinic -** *2020-2023*  
-Independently managed facility projects including landscaping and lawn care, trailer transport, medication delivery driver, updating facility technical equipment, special transport to MSU Vet Clinic
 
 **Tutoring -** *2018-Present*  
 Tutored 50+ college, high school, and junior high school students in computer science, math, statistics, physics, and Spanish through individual and group in-person and virtual meetings
@@ -78,9 +79,10 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 **Student Advisor to MSU CSE Committees -** *2024-2025 academic year*  
 Served as the peer appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Undergraduate Curriculum Committee. Worked with faculty to improve content and experiences for undergraduate computer science engineering students
 
-**Boy Scouts of America -** Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours
+**Boy Scouts of America -** *2010-2023*
+Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours
 
 **Governor’s Honor Guard –** *2017 - 2019*  
 Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park 
 
-**Kids Food Basket -** Helped design and fill lunch bags. Worked on numerous food collection and preparation campaigns
+**Kids Food Basket -** Helped design and fill lunch bags for youth in need. Worked on numerous food collection and preparation campaigns
