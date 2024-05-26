@@ -1,7 +1,7 @@
 <h1 align = "center">DAVID WASILEWSKI</h1>
 
 <p align="center"><a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a> ● Grand Rapids/East Lansing Michigan
-<br>Connect with me on <a href="(https://www.linkedin.com/in/david-wasilewski/)">LinkedIn</a></p>
+<br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a></p>
 
 
 ## EDUCATION
