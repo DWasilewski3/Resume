@@ -24,7 +24,7 @@
 
 **Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform
 
-**Business -** Project management, business management, manage budgets, investments, accounting, general business law, finance
+**Business -** Project management, business management, managing budgets, investments, accounting, general business law, finance
 
 
 ## PROFESSIONAL EXPERIENCE
@@ -33,7 +33,7 @@
 Microsoft Development intern. Developed custom solutions for clients using various Microsoft Softwares and Salesforce
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO of a student-owned startup technology company. Lead multiple teams of interns on a variety of projects including XR, AI, ML, and AWS. Organized collaboration projects with various student clubs
+CTO of a student-owned startup technology company. Leading multiple teams of interns on a variety of projects including Websites, Mobile Apps, XR, AI, ML, and AWS. Organized collaboration projects with various student clubs
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
@@ -54,13 +54,13 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 ## Recent Projects
 
-**Python Library -** Created and currently maintain a Pyton library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
+**Python Library -** Created and currently maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
 
 **MSU Dining Web Scraper -** Created JavaScript code to web scrape websites for dining on campus and filter based on student preferences. Available on [GitHub](https://github.com/DWasilewski3/EatAtState_Menu_Scraping)
 
 **MSU Bus Route Redesign -** As a submission for SpartaHack9, worked with a group to redesign and model new bus routes on campus. Available on [GitHub](https://github.com/DWasilewski3/Spartahack9-BusProject) and [Devpost](https://devpost.com/software/bus-route-project). Won the best hack for sustainability award
 
-**MSU Student Wifi Helper -** As a submission for SpartaHack8, worked with a group to create a machine learning based image processing model used to identify devices and assist students and faculty in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix (MLH prize)
+**MSU Student Wifi Helper -** As a submission for SpartaHack8, worked with a group to create a machine learning image processing model used to identify devices and assist students and faculty in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix (MLH prize)
 
 
 ## EXTRACURRICULARS
@@ -71,13 +71,13 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 **MSU Software Engineering and Computing Society -** Founding member, Senior Project Manager, and Chief Diversity Officer
 
-**Odyssey of the Mind -** *3 years* Member of a youth creative project creation and demonstartion team which placed second in regional competition and third in state competition.
+**Odyssey of the Mind -** *3 years* Member of a youth creative project creation and demonstration team which placed second in regional competition and third in state competition.
 
 
 ## VOLUNTEER SERVICE
 
 **Student Advisor to MSU CSE Committees -** *2024-2025 academic year*  
-Served as the peer appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Undergraduate Curriculum Committee. Worked with faculty to improve content and experiences for undergraduate computer science engineering students
+Served as the peer-appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Undergraduate Curriculum Committee. Worked with faculty to improve content and experiences for undergraduate computer science engineering students
 
 **Boy Scouts of America -** *2010-2023*
 Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours
