@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Your Project</title>
-    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>README as Webpage</title>
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div id="content"></div>
-    <script src="main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script> <!--md compiler library-->
+    <script>
+        fetch('README.md')
+            .then(response => response.text())
+            .then(text => {
+                var content = document.getElementById('content');
+                content.innerHTML = marked(text);
+            })
+            .catch(error => console.error(error));
+    </script>
 </body>
 </html>
