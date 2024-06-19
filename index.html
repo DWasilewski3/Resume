@@ -1,19 +1,21 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>README as Webpage</title>
+    <title>Display Markdown File</title>
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
     <div id="content"></div>
+
     <script>
-        fetch('README.md')
+        fetch('test.md')
             .then(response => response.text())
             .then(text => {
-                var content = document.getElementById('content');
-                content.innerHTML = marked(text);
-            })
-            .catch(error => console.error(error));
+                // Parse the Markdown text to HTML
+                const html = marked(text);
+                // Insert the HTML into the webpage
+                document.getElementById('content').innerHTML = html;
+            });
     </script>
 </body>
 </html>
