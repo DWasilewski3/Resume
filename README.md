@@ -6,14 +6,14 @@
 
 ## EDUCATION
 
-### **Michigan State University -** East Lansing, MI 
+**Michigan State University -** East Lansing, MI 
 - **Expected Graduation:** Spring 2025
 - **Major:** Engineering, Computer Science
 - **Current cumulative GPA:** 3.546
 - **Minors:** General Business, Computational Modeling Statistics and Engineering (CMSE)
 - **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, ARM Assembly, Python, C++, managerial accounting, corporate finance, business management, business law
 
-### **Forest Hills Central High School –** Ada, MI *2018-2022*
+**Forest Hills Central High School –** Ada, MI *2018-2022*
 - Received Excellence in Computer Science Award
 - Honor Roll
 - National Honor Society 
