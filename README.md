@@ -9,20 +9,13 @@
 **Michigan State University -** East Lansing, MI 
 - **Expected Graduation:** Spring 2025
 - **Major:** Engineering, Computer Science
-- **Current cumulative GPA:** 3.546
 - **Minors:** General Business, Computational Modeling Statistics and Engineering (CMSE)
 - **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, ARM Assembly, Python, C++, managerial accounting, corporate finance, business management, business law
-
-**Forest Hills Central High School –** Ada, MI *2018-2022*
-- Received Excellence in Computer Science Award
-- Honor Roll
-- National Honor Society 
-- Programmed computers for educational use in classrooms and a greenhouse
 
 
 ## SKILLS AND COURSEWORK
 
-**Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform
+**Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform, AL
 
 **Business -** Project management, business management, managing budgets, investments, accounting, general business law, finance
 
@@ -30,10 +23,10 @@
 ## PROFESSIONAL EXPERIENCE
 
 **Eide Bailly -** *May 2024 - Present*  
-Microsoft Development intern. Developed custom solutions for clients using various Microsoft Softwares and Salesforce
+Microsoft Development intern. Designed and developed custom solutions for clients using various Microsoft D365 Business Central, Azure, Power Apps, Flows, 
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO of a student-owned startup technology company. Leading multiple teams of interns on a variety of projects including Websites, Mobile Apps, XR, AI, ML, and AWS. Organized collaboration projects with various student clubs
+CTO, co-founder of a student-owned startup technology company. Leading multiple teams of interns on a variety of projects including Websites, Mobile Apps, XR, AI, ML, and AWS. Concurrently managed 17+ interns across 6 time zones and 7+ projects.
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
@@ -52,7 +45,7 @@ Created math lessons and updated curriculums in geometry, algebra 1, and algebra
 Tutored 50+ college, high school, and junior high school students in computer science, math, statistics, physics, and Spanish through individual and group in-person and virtual meetings
 
 
-## Recent Projects
+## Recent Personal Projects
 
 **Python Library -** Created and currently maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
 
