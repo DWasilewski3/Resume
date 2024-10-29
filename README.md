@@ -17,16 +17,16 @@
 
 **Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform, AL
 
-**Business -** Project management, business management, managing budgets, investments, accounting, general business law, finance
+**Business -** Project management, business management, managing budgets, investments, accounting, general business law, finance, consulting
 
 
 ## PROFESSIONAL EXPERIENCE
 
 **Eide Bailly -** *May 2024 - Present*  
-Microsoft Development intern. Designed and developed custom solutions for clients using various Microsoft D365 Business Central, Azure, Power Apps, Flows, 
+Microsoft Development intern. Designed and developed custom solutions for clients using Microsoft D365 Business Central, Azure, Power Apps, Power Automate, Power BI 
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO, co-founder of a student-owned startup technology company. Leading multiple teams of interns on a variety of projects including Websites, Mobile Apps, XR, AI, ML, and AWS. Concurrently managed 17+ interns across 6 time zones and 7+ projects.
+CTO, co-founder of a student-owned startup technology company. Leading 25+ interns interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS. 
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
