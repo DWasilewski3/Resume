@@ -10,7 +10,7 @@
 - **Expected Graduation:** Spring 2025
 - **Major:** Engineering, Computer Science
 - **Minors:** General Business, Computational Modeling Statistics and Engineering (CMSE)
-- **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, ARM Assembly, Python, C++, managerial accounting, corporate finance, business management, business law
+- **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, ARM Assembly, Python, C++, managerial accounting, corporate finance, business management, business law, supply chain management
 
 
 ## SKILLS AND COURSEWORK
@@ -26,7 +26,7 @@
 Microsoft Development intern. Designed and developed custom solutions for clients using Microsoft D365 Business Central, Azure, Power Apps, Power Automate, Power BI 
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO, co-founder of a student-owned startup technology company. Leading 25+ interns interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS. 
+CTO, co-founder of a student-owned startup technology company. Leading 30+ interns interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS. 
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
@@ -53,7 +53,7 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 **MSU Bus Route Redesign -** As a submission for SpartaHack9, worked with a group to redesign and model new bus routes on campus. Available on [GitHub](https://github.com/DWasilewski3/Spartahack9-BusProject) and [Devpost](https://devpost.com/software/bus-route-project). Won the best hack for sustainability award
 
-**MSU Student Wifi Helper -** As a submission for SpartaHack8, worked with a group to create a machine learning image processing model used to identify devices and assist students and faculty in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix (MLH prize)
+**MSU Student Wifi Helper -** As a submission for SpartaHack8, worked with a group to create a machine learning image processing model used to identify devices and assist students and faculty in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix
 
 
 ## EXTRACURRICULARS
