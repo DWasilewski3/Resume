@@ -1,0 +1,30 @@
+name: Rename File on Repository Update
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  rename-file:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository content
+        uses: actions/checkout@v2
+
+      - name: Rename file if it exists
+        run: |
+          if [ -f README.pdf ]; then
+            mv README.pdf David_Wasilewski_Resume.pdf
+          else
+            echo "README.pdf does not exist"
+          fi
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add .
+          git commit -m "Rename file as part of workflow"
+          git push
