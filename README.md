@@ -1,6 +1,6 @@
 <h1 align = "center">DAVID WASILEWSKI</h1>
 
-<p align="center"><a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a>
+<p align="center"><a href="mailto:dwasilewski@daydreamtechnologies.net">Dwasilewski@DayDreamTechnologies.net</a>
 <br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a></p>
 
 
@@ -23,31 +23,28 @@
 ## PROFESSIONAL EXPERIENCE
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO, co-founder of a student-owned startup technology company. Leading 30+ interns interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS.
+CTO, co-founder of a student-owned startup technology company. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS.
 
 **Eide Bailly -** *May 2024 - Present*  
 Microsoft Development intern. Designed and developed custom solutions for clients using Microsoft D365 Business Central, Azure, Power Apps, Power Automate, Power BI 
 
 **CasterDepot -** Wayland, MI
- - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
+ - **Junior Full-Stack Developer -** *July 2023 - Feb 2024*  
 Continued previous roles and began software development with Javascript, SQL, and Python including bulk product additions and database information updates
 
- - **E-commerce intern -** *Feb 2023-July 2023*  
+ - **E-commerce intern -** *Feb 2023 - July 2023*  
 Independently created an [Amazon Storefront](https://www.amazon.com/stores/CasterDepot/page/0C3FB9D6-1BE6-4344-AC64-81589AB25BDC?ref_=ast_bln) page and automated product uploads, data, branding, and inventory management
-
-**Mary Free Bed YMCA -** *March 2022-July 2023*  
-Certified lifeguard, routinely test and record pool chemicals, train new employees
 
 **CeresEd Educational Content -** *June - Sep 2021*  
 Created math lessons and updated curriculums in geometry, algebra 1, and algebra 2 for academically challenged students
 
-**Tutoring -** *2018-Present*  
+**Tutoring -** *2018 - Present*  
 Tutored 50+ college, high school, and junior high school students in computer science, math, statistics, physics, and Spanish through individual and group in-person and virtual meetings
 
 
 ## Recent Personal Projects
 
-**Linear Algebra Python Library -** Created and currently maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
+**Linear Algebra Python Library -** Developed and maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
 
 **MSU Dining Web Scraper -** Created JavaScript code to web scrape websites for dining on campus and filter based on student preferences. Available on [GitHub](https://github.com/DWasilewski3/EatAtState_Menu_Scraping)
 
@@ -69,10 +66,13 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 ## VOLUNTEER SERVICE
 
-**Student Advisor to MSU CSE Committees -** *2024-2025 academic year*  
+**Student Advisor to MSU CSE Committees -** *2024 - 2025 academic year*  
 Served as the peer-appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Undergraduate Curriculum Committee. Worked with faculty to improve content and experiences for undergraduate computer science engineering students
 
-**Boy Scouts of America -** *2010-2023*
+**Student Software Tester -** *2024 - 2025 academic year*
+Worked as the sole student tester for MSUIT's development of new features in the Student Information System portal. Aided in months of testing, debugging, and brainstorming with the team.
+
+**Boy Scouts of America -** *2010 - 2023*
 Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours
 
 **Governor’s Honor Guard –** *2017 - 2019*  
