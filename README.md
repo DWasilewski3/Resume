@@ -3,7 +3,6 @@
 <p align="center"><a href="mailto:dwasilewski@daydreamtechnologies.net">Dwasilewski@DayDreamTechnologies.net</a>
 <br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a></p>
 
-
 ## EDUCATION
 
 **Michigan State University -** East Lansing, MI 
@@ -23,7 +22,7 @@
 ## PROFESSIONAL EXPERIENCE
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO, co-founder of a student-owned startup technology company. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS.
+CTO, co-founder of a student-owned startup technology company. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including APIs, websites, mobile apps, XR, AI, ML, and AWS.
 
 **Eide Bailly -** *May 2024 - Present*  
 Microsoft Development intern. Designed and developed custom solutions for clients using Microsoft D365 Business Central, Azure, Power Apps, Power Automate, Power BI 
@@ -50,7 +49,7 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 **MSU Bus Route Redesign -** As a submission for SpartaHack9, worked with a group to redesign and model new bus routes on campus. Available on [GitHub](https://github.com/DWasilewski3/Spartahack9-BusProject) and [Devpost](https://devpost.com/software/bus-route-project). Won the best hack for sustainability award
 
-**MSU Student Wifi Helper -** As a submission for SpartaHack8, worked with a group to create a machine learning image processing model used to identify devices and assist students and faculty in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix
+**MSU Student Wifi Helper -** As a submission for SpartaHack8, collaboratively developed a machine learning vision model to identify devices and assist in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix
 
 
 ## EXTRACURRICULARS
@@ -59,7 +58,7 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 **Spartan Hackers Club -** Member. Participated in four Hackathons and had two award-winning projects
 
-**MSU Software Engineering and Computing Society -** Founding member, Senior Project Manager, and Chief Diversity Officer
+**Software Engineering and Computing Society -** Co-Founder, Senior Project Manager, Chief Diversity Officer
 
 **Odyssey of the Mind -** *3 years* Member of a youth creative project creation and demonstration team which placed second in regional competition and third in state competition.
 
@@ -73,7 +72,7 @@ Served as the peer-appointed and elected student on the MSU CSE Advisory Committ
 Worked as the sole student tester for MSUIT's development of new features in the Student Information System portal. Aided in months of testing, debugging, and brainstorming with the team.
 
 **Boy Scouts of America -** *2010 - 2023*
-Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours
+Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours, 250+ total volunteer hours
 
 **Governor’s Honor Guard –** *2017 - 2019*  
 Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park 
