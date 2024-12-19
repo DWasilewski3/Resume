@@ -23,10 +23,10 @@
 ## PROFESSIONAL EXPERIENCE
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO, co-founder of a student-owned startup technology company. Leading 30+ interns interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS.
+CTO, co-founder of a student-owned startup technology company. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including Websites, Mobile Apps, XR, AI, ML, and AWS.
 
 **Eide Bailly -** *May 2024 - Present*  
-Microsoft Development intern. Designed and developed custom solutions for clients using Microsoft D365 Business Central, Azure, Power Apps, Power Automate, Power BI 
+Microsoft Development intern. Designed and developed custom solutions for clients using Microsoft D365 Business Central, Azure, Power Apps, Power Automate, Power BI, Smartsheet
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023-Feb 2024*  
@@ -47,7 +47,7 @@ Tutored 50+ college, high school, and junior high school students in computer sc
 
 ## Recent Personal Projects
 
-**Linear Algebra Python Library -** Created and currently maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
+**Linear Algebra Python Library -** Created and maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
 
 **MSU Dining Web Scraper -** Created JavaScript code to web scrape websites for dining on campus and filter based on student preferences. Available on [GitHub](https://github.com/DWasilewski3/EatAtState_Menu_Scraping)
 
