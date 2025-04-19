@@ -1,31 +1,31 @@
 <h1 align = "center">DAVID WASILEWSKI</h1>
 
-<p align="center"><a href="mailto:dwasilewski@daydreamtechnologies.net">Dwasilewski@DayDreamTechnologies.net</a>
-<br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a></p>
+<p align="center"><a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a>
+<br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a>
+<br>View my profile on <a href="https://www.cloud-cards.link/DWAS">Cloud Cards</a>
+</p>
 
 ## EDUCATION
 
 **Michigan State University -** East Lansing, MI 
-- **Expected Graduation:** Spring 2025
-- **Major:** Engineering, Computer Science
+- Bachelor of Science in Computer Science and Engineering
 - **Minors:** General Business, Computational Modeling Statistics and Engineering (CMSE)
-- **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, ARM Assembly, Python, C++, managerial accounting, corporate finance, business management, business law, supply chain management
-
-
-## SKILLS AND COURSEWORK
-
-**Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform, AL
-
-**Business -** Project management, business management, managing budgets, investments, accounting, general business law, finance, consulting
+- **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, Python, C++, Accounting, Finance, Business Management and Law, Supply Chain Management, Entrepreneurship
 
 
 ## PROFESSIONAL EXPERIENCE
 
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO, co-founder of a student-owned startup technology company. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including APIs, websites, mobile apps, XR, AI, ML, and AWS.
+CTO, Co-Founder. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including APIs, websites, mobile apps, XR, AI, ML, and AWS.
+
+**Kloud Technologies -** *Jan 2025 - Present*  
+CEO, Co-Founder. Overseeing business development, product development, daily opperations for [Cloud Cards](https://www.cloud-cards.link/).
+
+**PowerShade** *Apr 2025 - Present*  
+CEO, Co-Founder, Software Developer. Overseeing software development, product development, daily opperations for [PowerShade Umbrellas](https://dwasilewski3.github.io/PowerShade-Website/).
 
 **Eide Bailly -** *May 2024 - Present*  
-Microsoft Development intern. Designed and developed custom solutions for clients using Microsoft D365 Business Central, Azure, Power Apps, Power Automate, Power BI 
+Microsoft Development Intern. Designed and developed custom solutions for clients using Business Central, Azure, Power Platform. Created multiple BC AppSource apps including [Check Extender](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eidebaillyllp%7CAID.multi_line_check_extender%7CPAPPID.c5ab6843-0158-4105-a9de-263cdca4e1ac?tab=Overview)
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023 - Feb 2024*  
@@ -37,15 +37,16 @@ Independently created an [Amazon Storefront](https://www.amazon.com/stores/Caste
 **CeresEd Educational Content -** *June - Sep 2021*  
 Created math lessons and updated curriculums in geometry, algebra 1, and algebra 2 for academically challenged students
 
-**Tutoring -** *2018 - Present*  
-Tutored 50+ college, high school, and junior high school students in computer science, math, statistics, physics, and Spanish through individual and group in-person and virtual meetings
+## SKILLS AND COURSEWORK
+
+**Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform, AL
+
+**Business -** Project management, business management, managing budgets, investments, accounting, general business law, finance, consulting
 
 
 ## Recent Personal Projects
 
 **Linear Algebra Python Library -** Developed and maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
-
-**MSU Dining Web Scraper -** Created JavaScript code to web scrape websites for dining on campus and filter based on student preferences. Available on [GitHub](https://github.com/DWasilewski3/EatAtState_Menu_Scraping)
 
 **MSU Bus Route Redesign -** As a submission for SpartaHack9, worked with a group to redesign and model new bus routes on campus. Available on [GitHub](https://github.com/DWasilewski3/Spartahack9-BusProject) and [Devpost](https://devpost.com/software/bus-route-project). Won the best hack for sustainability award
 
@@ -76,5 +77,3 @@ Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park voluntee
 
 **Governor’s Honor Guard –** *2017 - 2019*  
 Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park 
-
-**Kids Food Basket -** Helped design and fill lunch bags for youth in need. Worked on numerous food collection and preparation campaigns

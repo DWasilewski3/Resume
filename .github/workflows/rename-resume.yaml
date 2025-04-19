@@ -1,4 +1,4 @@
-name: Rename File on Repository Update
+name: Convert and Rename Resume
 
 on:
   push:
@@ -6,25 +6,26 @@ on:
       - main
 
 jobs:
-  rename-file:
+  convert-and-rename:
     runs-on: ubuntu-latest
 
     steps:
       - name: Checkout repository content
         uses: actions/checkout@v2
 
-      - name: Rename file if it exists
-        run: |
-          if [ -f README.pdf ]; then
-            mv README.pdf David_Wasilewski_Resume.pdf
-          else
-            echo "README.pdf does not exist"
-          fi
+      - name: Setup Pandoc
+        uses: docker://pandoc/core:3.1
+        with:
+          args: >-
+            README.md
+            -o David_Wasilewski_Resume.pdf
+            --pdf-engine=wkhtmltopdf
+            --standalone
 
       - name: Commit changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add .
-          git commit -m "Rename file as part of workflow"
+          git add David_Wasilewski_Resume.pdf
+          git commit -m "Update resume PDF"
           git push
