@@ -1,6 +1,7 @@
 <h1 align = "center">DAVID WASILEWSKI</h1>
 
-<p align="center"><a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a>
+<p align="center">
+<a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a>
 <br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a>
 <br>View my profile on <a href="https://www.cloud-cards.link/DWAS">Cloud Cards</a>
 </p>
@@ -67,13 +68,13 @@ Created math lessons and updated curriculums in geometry, algebra 1, and algebra
 ## VOLUNTEER SERVICE
 
 **Student Advisor to MSU CSE Committees -** *2024 - 2025 academic year*  
-Served as the peer-appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Undergraduate Curriculum Committee. Worked with faculty to improve content and experiences for undergraduate computer science engineering students
+Served as the peer-appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Curriculum Committee. Worked with faculty to improve content and experiences for computer science engineering students. Organized and led student focus groups.
 
 **Student Software Tester -** *2024 - 2025 academic year*
 Worked as the sole student tester for MSUIT's development of new features in the Student Information System portal. Aided in months of testing, debugging, and brainstorming with the team.
 
 **Boy Scouts of America -** *2010 - 2023*
-Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours, 250+ total volunteer hours
+Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours, 250+ total volunteer hours.
 
 **Governor's Honor Guard -** *2017 - 2019*  
-Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park 
+Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park. 
