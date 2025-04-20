@@ -13,14 +13,15 @@ jobs:
       - name: Checkout repository content
         uses: actions/checkout@v2
 
-      - name: Setup Pandoc
-        uses: docker://pandoc/core:3.1
+      - name: Setup and run Pandoc
+        uses: docker://pandoc/latex:3.1
         with:
           args: >-
             README.md
             -o David_Wasilewski_Resume.pdf
-            --pdf-engine=wkhtmltopdf
+            --pdf-engine=xelatex
             --standalone
+            --metadata title="David Wasilewski Resume"
 
       - name: Commit changes
         run: |
