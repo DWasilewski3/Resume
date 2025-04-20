@@ -16,15 +16,19 @@ jobs:
       - name: Checkout repository content
         uses: actions/checkout@v2
 
-      - name: Setup and run Pandoc
-        uses: docker://pandoc/latex:3.1
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          args: >-
-            README.md
-            -o David_Wasilewski_Resume.pdf
-            --pdf-engine=xelatex
-            --standalone
-            --metadata title="David Wasilewski Resume"
+          node-version: '16'
+
+      - name: Install md-to-pdf
+        run: npm install -g md-to-pdf
+
+      - name: Convert MD to PDF
+        run: md-to-pdf README.md --config-file=null
+
+      - name: Rename PDF
+        run: mv README.pdf David_Wasilewski_Resume.pdf
 
       - name: Commit changes
         run: |
