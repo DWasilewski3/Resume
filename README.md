@@ -75,5 +75,5 @@ Worked as the sole student tester for MSUIT's development of new features in the
 **Boy Scouts of America -** *2010 - 2023*
 Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours, 250+ total volunteer hours
 
-**Governor’s Honor Guard –** *2017 - 2019*  
+**Governor's Honor Guard -** *2017 - 2019*  
 Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park 
