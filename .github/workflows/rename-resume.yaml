@@ -23,7 +23,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          npm install -g marked puppeteer
+          npm init -y
+          npm install marked puppeteer
 
       - name: Convert MD to PDF
         run: |
@@ -48,7 +49,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add David_Wasilewski_Resume.pdf
+          git add -f David_Wasilewski_Resume.pdf
           git commit -m "Update resume PDF"
           git push origin main
         env:
