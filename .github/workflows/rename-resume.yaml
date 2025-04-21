@@ -24,13 +24,15 @@ jobs:
       - name: Install dependencies
         run: |
           npm init -y
-          npm install marked puppeteer
+          npm install marked puppeteer-core
+          sudo apt-get update
+          sudo apt-get install -y chromium-browser
 
       - name: Create conversion script
         run: |
           echo 'const fs = require("fs");
           const marked = require("marked");
-          const puppeteer = require("puppeteer");
+          const puppeteer = require("puppeteer-core");
           
           const css = `
             <style>
@@ -112,6 +114,7 @@ jobs:
             fs.writeFileSync("temp.html", fullHtml);
             
             const browser = await puppeteer.launch({
+              executablePath: "/usr/bin/chromium-browser",
               args: ["--no-sandbox", "--disable-setuid-sandbox"]
             });
             const page = await browser.newPage();
