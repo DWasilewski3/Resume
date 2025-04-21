@@ -111,7 +111,7 @@ jobs:
             </html>`;
           
           fs.writeFileSync("temp.html", fullHtml);
-          execSync("wkhtmltopdf --enable-local-file-access --margin-top 10 --margin-right 20 --margin-bottom 20 --margin-left 20 temp.html David_Wasilewski_Resume.pdf");
+          execSync("wkhtmltopdf --enable-local-file-access --margin-top 10 --margin-right 20 --margin-bottom 20 --margin-left 20 --enable-external-links --enable-internal-links --javascript-delay 1000 temp.html David_Wasilewski_Resume.pdf");
           fs.unlinkSync("temp.html");' > convert.js
 
       - name: Convert MD to PDF
