@@ -36,17 +36,21 @@ jobs:
             <style>
               body {
                 font-family: Arial, sans-serif;
-                line-height: 1.6;
+                line-height: 1.4;
                 max-width: 800px;
-                margin: 20px auto;
-                padding: 10px;
-              }
-              h1, h2, h3 {
-                color: #2c3e50;
-                margin-top: 1em;
+                margin: 10px auto;
+                padding: 5px;
+                font-size: 8pt;
               }
               h1 {
+                color: #2c3e50;
                 margin-top: 0.5em;
+                font-size: 24pt;
+              }
+              h2, h3 {
+                color: #2c3e50;
+                margin-top: 0.5em;
+                font-size: 10pt;
               }
               a {
                 color: #3498db;
@@ -56,37 +60,42 @@ jobs:
                 text-decoration: underline;
               }
               ul, ol {
-                padding-left: 2em;
+                padding-left: 1.5em;
               }
               li {
-                margin: 0.5em 0;
+                margin: 0.25em 0;
+              }
+              p {
+                margin: 0.25em 0;
               }
               code {
                 background: #f8f9fa;
-                padding: 0.2em 0.4em;
+                padding: 0.1em 0.2em;
                 border-radius: 3px;
                 font-family: monospace;
+                font-size: 7pt;
               }
               pre {
                 background: #f8f9fa;
-                padding: 1em;
+                padding: 0.5em;
                 border-radius: 5px;
                 overflow-x: auto;
+                font-size: 7pt;
               }
               blockquote {
                 border-left: 4px solid #3498db;
-                margin: 1em 0;
-                padding-left: 1em;
+                margin: 0.5em 0;
+                padding-left: 0.5em;
                 color: #666;
               }
               table {
                 border-collapse: collapse;
                 width: 100%;
-                margin: 1em 0;
+                margin: 0.5em 0;
               }
               th, td {
                 border: 1px solid #ddd;
-                padding: 8px;
+                padding: 4px;
                 text-align: left;
               }
               th {
@@ -117,10 +126,8 @@ jobs:
             });
             const page = await browser.newPage();
             
-            // Enable JavaScript and allow external resources
             await page.setJavaScriptEnabled(true);
             
-            // Set viewport to ensure proper rendering
             await page.setViewport({
               width: 1200,
               height: 800,
@@ -131,7 +138,6 @@ jobs:
               waitUntil: "networkidle0"
             });
             
-            // Wait for all links to be properly rendered
             await page.evaluate(() => {
               return new Promise((resolve) => {
                 setTimeout(resolve, 1000);
