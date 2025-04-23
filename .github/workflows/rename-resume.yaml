@@ -40,17 +40,17 @@ jobs:
                 max-width: 800px;
                 margin: 10px auto;
                 padding: 5px;
-                font-size: 8pt;
+                font-size: 10pt;
               }
               h1 {
                 color: #2c3e50;
                 margin-top: 0.5em;
-                font-size: 24pt;
+                font-size: 30pt;
               }
               h2, h3 {
                 color: #2c3e50;
                 margin-top: 0.5em;
-                font-size: 10pt;
+                font-size: 12.5pt;
               }
               a {
                 color: #3498db;
@@ -73,14 +73,14 @@ jobs:
                 padding: 0.1em 0.2em;
                 border-radius: 3px;
                 font-family: monospace;
-                font-size: 7pt;
+                font-size: 8.75pt;
               }
               pre {
                 background: #f8f9fa;
                 padding: 0.5em;
                 border-radius: 5px;
                 overflow-x: auto;
-                font-size: 7pt;
+                font-size: 8.75pt;
               }
               blockquote {
                 border-left: 4px solid #3498db;
