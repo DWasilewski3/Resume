@@ -116,8 +116,26 @@ jobs:
               args: ["--no-sandbox", "--disable-setuid-sandbox"]
             });
             const page = await browser.newPage();
+            
+            // Enable JavaScript and allow external resources
+            await page.setJavaScriptEnabled(true);
+            
+            // Set viewport to ensure proper rendering
+            await page.setViewport({
+              width: 1200,
+              height: 800,
+              deviceScaleFactor: 2
+            });
+            
             await page.goto(`file://${process.cwd()}/temp.html`, {
               waitUntil: "networkidle0"
+            });
+            
+            // Wait for all links to be properly rendered
+            await page.evaluate(() => {
+              return new Promise((resolve) => {
+                setTimeout(resolve, 1000);
+              });
             });
             
             await page.pdf({
@@ -130,7 +148,8 @@ jobs:
                 left: "20mm"
               },
               printBackground: true,
-              preferCSSPageSize: true
+              preferCSSPageSize: true,
+              displayHeaderFooter: false
             });
             
             await browser.close();
