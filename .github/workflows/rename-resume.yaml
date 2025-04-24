@@ -35,96 +35,77 @@ jobs:
           
           const css = `
             <style>
-              :root {
-                --content-length: 0;
-                --scale-factor: 1;
-              }
-              
               body {
                 font-family: Arial, sans-serif;
                 line-height: 1.4;
                 max-width: 800px;
                 margin: 10px auto;
                 padding: 5px;
-                font-size: calc(10pt * var(--scale-factor));
+                font-size: 10pt;
               }
-              
               h1 {
                 color: #2c3e50;
                 margin: 0;
                 padding: 0;
-                font-size: calc(24pt * var(--scale-factor));
+                font-size: 24pt;
                 text-align: center;
               }
-              
               .contact-info {
                 text-align: center;
-                margin-top: calc(5px * var(--scale-factor));
-                margin-bottom: calc(15px * var(--scale-factor));
+                margin-top: 5px;
+                margin-bottom: 15px;
               }
-              
               h2, h3 {
                 color: #2c3e50;
-                margin-top: calc(0.5em * var(--scale-factor));
-                font-size: calc(12.5pt * var(--scale-factor));
+                margin-top: 0.5em;
+                font-size: 12.5pt;
               }
-              
               a {
                 color: #3498db;
                 text-decoration: none;
               }
-              
               a:hover {
                 text-decoration: underline;
               }
-              
               ul, ol {
-                padding-left: calc(1.5em * var(--scale-factor));
+                padding-left: 1.5em;
               }
-              
               li {
-                margin: calc(0.25em * var(--scale-factor)) 0;
+                margin: 0.25em 0;
               }
-              
               p {
-                margin: calc(0.25em * var(--scale-factor)) 0;
+                margin: 0.25em 0;
               }
-              
               code {
                 background: #f8f9fa;
-                padding: calc(0.1em * var(--scale-factor)) calc(0.2em * var(--scale-factor));
-                border-radius: calc(3px * var(--scale-factor));
+                padding: 0.1em 0.2em;
+                border-radius: 3px;
                 font-family: monospace;
-                font-size: calc(8.75pt * var(--scale-factor));
+                font-size: 8.75pt;
               }
-              
               pre {
                 background: #f8f9fa;
-                padding: calc(0.5em * var(--scale-factor));
-                border-radius: calc(5px * var(--scale-factor));
+                padding: 0.5em;
+                border-radius: 5px;
                 overflow-x: auto;
-                font-size: calc(8.75pt * var(--scale-factor));
+                font-size: 8.75pt;
               }
-              
               blockquote {
-                border-left: calc(4px * var(--scale-factor)) solid #3498db;
-                margin: calc(0.5em * var(--scale-factor)) 0;
-                padding-left: calc(0.5em * var(--scale-factor));
+                border-left: 4px solid #3498db;
+                margin: 0.5em 0;
+                padding-left: 0.5em;
                 color: #666;
               }
-              
               table {
                 border-collapse: collapse;
                 width: 100%;
-                margin: calc(0.5em * var(--scale-factor)) 0;
+                margin: 0.5em 0;
               }
-              
               th, td {
-                border: calc(1px * var(--scale-factor)) solid #ddd;
-                padding: calc(4px * var(--scale-factor));
+                border: 1px solid #ddd;
+                padding: 4px;
                 text-align: left;
               }
-              
               th {
                 background-color: #f8f9fa;
               }
@@ -178,45 +159,10 @@ jobs:
               waitUntil: "networkidle0"
             });
             
-            // Calculate content length and adjust scale factor
             await page.evaluate(() => {
-              const content = document.body;
-              const header = content.querySelector('h1');
-              const contactInfo = content.querySelector('.contact-info');
-              const mainContent = content.cloneNode(true);
-              
-              // Remove header for content measurement
-              mainContent.removeChild(mainContent.querySelector('h1'));
-              mainContent.removeChild(mainContent.querySelector('.contact-info'));
-              
-              // Get heights in pixels
-              const headerHeight = header.offsetHeight + contactInfo.offsetHeight;
-              const contentHeight = mainContent.scrollHeight;
-              const pageHeight = 1122; // A4 height in pixels at 96 DPI
-              const targetHeight = (pageHeight * 2) - headerHeight;
-              
-              // Calculate initial scale factor with constraints
-              let scaleFactor = Math.min(1, targetHeight / contentHeight);
-              scaleFactor = Math.max(0.7, scaleFactor); // Minimum scale factor
-              
-              // Apply scale factor and check if it fits
-              content.style.setProperty('--scale-factor', scaleFactor);
-              
-              // Fine-tune the scale factor
-              const checkFit = () => {
-                const newContentHeight = mainContent.scrollHeight;
-                const totalHeight = headerHeight + newContentHeight;
-                
-                if (totalHeight > pageHeight * 2) {
-                  scaleFactor *= 0.99; // Reduce by 1% for finer control
-                  scaleFactor = Math.max(0.7, scaleFactor); // Ensure minimum scale
-                  content.style.setProperty('--scale-factor', scaleFactor);
-                  return checkFit();
-                }
-                return scaleFactor;
-              };
-              
-              return checkFit();
+              return new Promise((resolve) => {
+                setTimeout(resolve, 1000);
+              });
             });
             
             await page.pdf({
