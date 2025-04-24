@@ -105,8 +105,20 @@ jobs:
           `;
           
           async function convert() {
-            const md = fs.readFileSync("README.md", "utf8");
-            const html = marked.parse(md);
+            const md = fs.readFileSync("Resume.md", "utf8");
+            
+            // Extract name from the first line
+            const nameMatch = md.match(/^# NAME: (.*)$/m);
+            if (!nameMatch) {
+              throw new Error("Could not find name in Resume.md. First line should be '# NAME: Your Name'");
+            }
+            const name = nameMatch[1].trim();
+            const pdfFilename = `${name.replace(/\s+/g, '_')}_Resume.pdf`;
+            
+            // Remove the NAME line from the markdown for display
+            const displayMd = md.replace(/^# NAME: .*$/m, `# ${name}`);
+            const html = marked.parse(displayMd);
+            
             const fullHtml = `<!DOCTYPE html>
               <html>
                 <head>
@@ -145,7 +157,7 @@ jobs:
             });
             
             await page.pdf({
-              path: "David_Wasilewski_Resume.pdf",
+              path: pdfFilename,
               format: "A4",
               margin: {
                 top: "10mm",
@@ -171,7 +183,7 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git add -f David_Wasilewski_Resume.pdf
+          git add -f *_Resume.pdf
           git commit -m "Update resume PDF"
           git push origin main
         env:

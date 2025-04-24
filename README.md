@@ -1,80 +1,155 @@
-<h1 align = "center">DAVID WASILEWSKI</h1>
+# Professional Resume Template
 
-<p align="center">
-<a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a>
-<br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a>
-<br>View my profile on <a href="https://www.cloud-cards.link/DWAS">Cloud Cards</a>
-</p>
+This repository contains a professional resume template that automatically generates both Markdown and PDF versions of your resume. The template is designed to be easily customizable while maintaining a clean, professional appearance.
 
-## EDUCATION
+## Features
 
-**Michigan State University -** East Lansing, MI 
-- Bachelor of Science in Computer Science and Engineering
-- **Minors:** General Business, Computational Modeling Statistics and Engineering (CMSE)
-- **Relevant Coursework:** Object Oriented Programming, Data Structures and Algorithms, Computer Architecture, Python, C++, Accounting, Finance, Business Management and Law, Supply Chain Management, Entrepreneurship
+- **Markdown-based**: Write your resume in simple Markdown format
+- **Automatic PDF Generation**: GitHub Actions workflow automatically converts your resume to PDF
+- **Responsive Design**: Clean, professional layout that works well in both digital and print formats
+- **Easy Customization**: Simple to modify and personalize for your needs
 
+## Getting Started
 
-## PROFESSIONAL EXPERIENCE
+### Prerequisites
 
-**DayDream Technologies -** *Jan 2024 - Present*  
-CTO, Co-Founder. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including APIs, websites, mobile apps, XR, AI, ML, and AWS.
+- A GitHub account
+- Basic knowledge of Markdown syntax
+- Git installed on your local machine (optional)
 
-**Kloud Technologies -** *Jan 2025 - Present*  
-CEO, Co-Founder. Overseeing business development, product development, daily opperations for [Cloud Cards](https://www.cloud-cards.link/).
+### Installation
 
-**PowerShade** *Apr 2025 - Present*  
-CEO, Co-Founder, Software Developer. Overseeing software development, product development, daily opperations for [PowerShade Umbrellas](https://dwasilewski3.github.io/PowerShade-Website/).
+1. Fork this repository to your GitHub account
+2. Clone your forked repository to your local machine:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/Resume.git
+   ```
 
-**Eide Bailly -** *May 2024 - May 2025*  
-Microsoft Development Intern. Designed and developed custom solutions for clients using Business Central, Azure, Power Platform. Created multiple BC AppSource apps including [Check Extender](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eidebaillyllp%7CAID.multi_line_check_extender%7CPAPPID.c5ab6843-0158-4105-a9de-263cdca4e1ac?tab=Overview)
+## Customizing Your Resume
 
-**CasterDepot -** Wayland, MI
- - **Junior Full-Stack Developer -** *July 2023 - Feb 2024*  
-Continued previous roles and began software development with Javascript, SQL, and Python including bulk product additions and database information updates
+### Basic Customization
 
- - **E-commerce intern -** *Feb 2023 - July 2023*  
-Independently created an [Amazon Storefront](https://www.amazon.com/stores/CasterDepot/page/0C3FB9D6-1BE6-4344-AC64-81589AB25BDC?ref_=ast_bln) page and automated product uploads, data, branding, and inventory management
+1. Edit `resume.md` with your personal information:
+   - Replace the name, contact information, and links
+   - Update the education section with your details
+   - Add your professional experience
+   - List your skills and projects
+   - Include your extracurricular activities and volunteer work
 
-**CeresEd Educational Content -** *June - Sep 2021*  
-Created math lessons and updated curriculums in geometry, algebra 1, and algebra 2 for academically challenged students
+2. The file uses standard Markdown syntax:
+   ```markdown
+   # Heading 1
+   ## Heading 2
+   **Bold text**
+   *Italic text*
+   [Link text](URL)
+   - Bullet points
+   ```
 
-## SKILLS AND COURSEWORK
+### Advanced Customization
 
-**Computer Programming -** Java, C++, C#, Python, Raspberry Pi, Arduino, Git, GitHub, HTML, CSS, JavaScript, Google Apps Script, Generative AI, Microsoft Power Platform, AL
+#### Styling
 
-**Business -** Project management, business management, managing budgets, investments, accounting, general business law, finance, consulting
+The PDF generation uses a clean, professional style. If you want to modify the styling:
 
+1. Edit the CSS in the GitHub Actions workflow file (`.github/workflows/rename-resume.yaml`)
+2. The current styling includes:
+   - Professional fonts (Arial)
+   - Consistent spacing and margins
+   - Clear hierarchy with different heading sizes
+   - Proper link formatting
+   - Clean list styling
 
-## Recent Personal Projects
+#### PDF Generation
 
-**Linear Algebra Python Library -** Developed and maintain a Python library designed to help students learn linear algebra. Available on [GitHub](https://github.com/DWasilewski3/LinAlgLib) and [PyPI](https://pypi.org/project/LinAlgLib/)
+The PDF is automatically generated using GitHub Actions. The workflow:
+1. Triggers on pushes to main branch
+2. Converts Markdown to HTML
+3. Applies custom styling
+4. Generates a PDF using Puppeteer
+5. Commits the PDF back to the repository
 
-**MSU Bus Route Redesign -** As a submission for SpartaHack9, worked with a group to redesign and model new bus routes on campus. Available on [GitHub](https://github.com/DWasilewski3/Spartahack9-BusProject) and [Devpost](https://devpost.com/software/bus-route-project). Won the best hack for sustainability award
+## Usage
 
-**MSU Student Wifi Helper -** As a submission for SpartaHack8, collaboratively developed a machine learning vision model to identify devices and assist in connecting them to the wifi. Available on [Devpost](https://devpost.com/software/image-recognition-tool-for-msu-internet-connection). Won the best use of Velo by Wix
+### Local Development
 
+1. Make changes to `resume.md`
+2. Preview your changes using a Markdown viewer
+3. Commit and push your changes:
+   ```bash
+   git add resume.md
+   git commit -m "Update resume content"
+   git push origin main
+   ```
 
-## EXTRACURRICULARS
+### Automatic PDF Generation
 
-**Boy Scouts of America –** Earned Eagle Scout rank. Selected for the Governor’s Honor Guard on Mackinac Island for three consecutive summers. Numerous leadership roles
+The PDF will be automatically generated when you:
+- Push changes to the main branch
+- Create a pull request to the main branch
+- Manually trigger the workflow
 
-**Spartan Hackers Club -** Member. Participated in four Hackathons and had two award-winning projects
+You can find the generated PDF in:
+1. The repository as `David_Wasilewski_Resume.pdf`
+2. The GitHub Actions artifacts section
 
-**Software Engineering and Computing Society -** Co-Founder, Senior Project Manager, Chief Diversity Officer
+## Best Practices
 
-**Odyssey of the Mind -** *3 years* Member of a youth creative project creation and demonstration team which placed second in regional competition and third in state competition.
+1. **Keep it Professional**
+   - Use clear, concise language
+   - Focus on achievements and impact
+   - Maintain consistent formatting
 
+2. **Content Organization**
+   - Start with most recent experiences
+   - Use bullet points for clarity
+   - Include relevant metrics and achievements
 
-## VOLUNTEER SERVICE
+3. **Formatting Tips**
+   - Use proper heading hierarchy
+   - Keep line lengths reasonable
+   - Use consistent date formats
+   - Include relevant links to projects
 
-**Student Advisor to MSU CSE Committees -** *2024 - 2025 academic year*  
-Served as the peer-appointed and elected student on the MSU CSE Advisory Committee and the MSU CSE Curriculum Committee. Worked with faculty to improve content and experiences for computer science engineering students. Organized and led student focus groups.
+4. **Version Control**
+   - Make atomic commits
+   - Write clear commit messages
+   - Keep sensitive information out of the repository
 
-**Student Software Tester -** *2024 - 2025 academic year*
-Worked as the sole student tester for MSUIT's development of new features in the Student Information System portal. Aided in months of testing, debugging, and brainstorming with the team.
+## Troubleshooting
 
-**Boy Scouts of America -** *2010 - 2023*
-Highway clean-up, Eagle Scout projects, 120+ Mackinac Island State Park volunteer hours, 250+ total volunteer hours.
+### Common Issues
 
-**Governor's Honor Guard -** *2017 - 2019*  
-Served as Boy Scout assistant patrol leader and visitor guide at Fort Mackinac and State Park buildings, and led volunteer service projects for Mackinac Island State Park. 
+1. **PDF Generation Fails**
+   - Check GitHub Actions logs for errors
+   - Ensure all Markdown syntax is valid
+   - Verify links are properly formatted
+
+2. **Formatting Issues**
+   - Check for proper Markdown syntax
+   - Ensure consistent spacing
+   - Verify heading hierarchy
+
+3. **Workflow Not Triggering**
+   - Check repository permissions
+   - Verify branch protection rules
+   - Ensure workflow file is in correct location
+
+## Contributing
+
+Feel free to:
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Acknowledgments
+
+- GitHub Actions for automation
+- Markdown for simple formatting
+- Puppeteer for PDF generation
+- All contributors who have helped improve this template 
