@@ -113,7 +113,7 @@ jobs:
               throw new Error("Could not find name in Resume.md. First line should be '# NAME: Your Name'");
             }
             const name = nameMatch[1].trim();
-            const pdfFilename = `${name.replace(/\s+/g, '_')}_Resume.pdf`;
+            const pdfFilename = `${name.replace(/\s+/g, "_")}_Resume.pdf`;
             
             // Remove the NAME line from the markdown for display
             const displayMd = md.replace(/^# NAME: .*$/m, `# ${name}`);
