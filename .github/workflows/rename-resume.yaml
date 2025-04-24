@@ -35,77 +35,96 @@ jobs:
           
           const css = `
             <style>
+              :root {
+                --content-length: 0;
+                --scale-factor: 1;
+              }
+              
               body {
                 font-family: Arial, sans-serif;
                 line-height: 1.4;
                 max-width: 800px;
                 margin: 10px auto;
                 padding: 5px;
-                font-size: 10pt;
+                font-size: calc(10pt * var(--scale-factor));
               }
+              
               h1 {
                 color: #2c3e50;
                 margin: 0;
                 padding: 0;
-                font-size: 24pt;
+                font-size: calc(24pt * var(--scale-factor));
                 text-align: center;
               }
+              
               .contact-info {
                 text-align: center;
-                margin-top: 5px;
-                margin-bottom: 15px;
+                margin-top: calc(5px * var(--scale-factor));
+                margin-bottom: calc(15px * var(--scale-factor));
               }
+              
               h2, h3 {
                 color: #2c3e50;
-                margin-top: 0.5em;
-                font-size: 12.5pt;
+                margin-top: calc(0.5em * var(--scale-factor));
+                font-size: calc(12.5pt * var(--scale-factor));
               }
+              
               a {
                 color: #3498db;
                 text-decoration: none;
               }
+              
               a:hover {
                 text-decoration: underline;
               }
+              
               ul, ol {
-                padding-left: 1.5em;
+                padding-left: calc(1.5em * var(--scale-factor));
               }
+              
               li {
-                margin: 0.25em 0;
+                margin: calc(0.25em * var(--scale-factor)) 0;
               }
+              
               p {
-                margin: 0.25em 0;
+                margin: calc(0.25em * var(--scale-factor)) 0;
               }
+              
               code {
                 background: #f8f9fa;
-                padding: 0.1em 0.2em;
-                border-radius: 3px;
+                padding: calc(0.1em * var(--scale-factor)) calc(0.2em * var(--scale-factor));
+                border-radius: calc(3px * var(--scale-factor));
                 font-family: monospace;
-                font-size: 8.75pt;
+                font-size: calc(8.75pt * var(--scale-factor));
               }
+              
               pre {
                 background: #f8f9fa;
-                padding: 0.5em;
-                border-radius: 5px;
+                padding: calc(0.5em * var(--scale-factor));
+                border-radius: calc(5px * var(--scale-factor));
                 overflow-x: auto;
-                font-size: 8.75pt;
+                font-size: calc(8.75pt * var(--scale-factor));
               }
+              
               blockquote {
-                border-left: 4px solid #3498db;
-                margin: 0.5em 0;
-                padding-left: 0.5em;
+                border-left: calc(4px * var(--scale-factor)) solid #3498db;
+                margin: calc(0.5em * var(--scale-factor)) 0;
+                padding-left: calc(0.5em * var(--scale-factor));
                 color: #666;
               }
+              
               table {
                 border-collapse: collapse;
                 width: 100%;
-                margin: 0.5em 0;
+                margin: calc(0.5em * var(--scale-factor)) 0;
               }
+              
               th, td {
-                border: 1px solid #ddd;
-                padding: 4px;
+                border: calc(1px * var(--scale-factor)) solid #ddd;
+                padding: calc(4px * var(--scale-factor));
                 text-align: left;
               }
+              
               th {
                 background-color: #f8f9fa;
               }
@@ -159,10 +178,31 @@ jobs:
               waitUntil: "networkidle0"
             });
             
+            // Calculate content length and adjust scale factor
             await page.evaluate(() => {
-              return new Promise((resolve) => {
-                setTimeout(resolve, 1000);
-              });
+              const content = document.body;
+              const contentHeight = content.scrollHeight;
+              const pageHeight = 1122; // A4 height in pixels at 96 DPI
+              const targetHeight = pageHeight * 2; // Target height for two pages
+              
+              // Calculate initial scale factor
+              let scaleFactor = targetHeight / contentHeight;
+              
+              // Apply scale factor and check if it fits
+              content.style.setProperty('--scale-factor', scaleFactor);
+              
+              // Fine-tune the scale factor
+              const checkFit = () => {
+                const newHeight = content.scrollHeight;
+                if (newHeight > targetHeight) {
+                  scaleFactor *= 0.95; // Reduce by 5%
+                  content.style.setProperty('--scale-factor', scaleFactor);
+                  return checkFit();
+                }
+                return scaleFactor;
+              };
+              
+              return checkFit();
             });
             
             await page.pdf({
