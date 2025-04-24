@@ -181,20 +181,23 @@ jobs:
             // Calculate content length and adjust scale factor
             await page.evaluate(() => {
               const content = document.body;
-              const header = content.querySelector('h1').nextElementSibling;
+              const header = content.querySelector('h1');
+              const contactInfo = content.querySelector('.contact-info');
               const mainContent = content.cloneNode(true);
               
               // Remove header for content measurement
               mainContent.removeChild(mainContent.querySelector('h1'));
               mainContent.removeChild(mainContent.querySelector('.contact-info'));
               
-              const headerHeight = header.offsetHeight;
+              // Get heights in pixels
+              const headerHeight = header.offsetHeight + contactInfo.offsetHeight;
               const contentHeight = mainContent.scrollHeight;
               const pageHeight = 1122; // A4 height in pixels at 96 DPI
-              const targetHeight = (pageHeight * 2) - headerHeight; // Target height for content
+              const targetHeight = (pageHeight * 2) - headerHeight;
               
-              // Calculate initial scale factor
-              let scaleFactor = targetHeight / contentHeight;
+              // Calculate initial scale factor with constraints
+              let scaleFactor = Math.min(1, targetHeight / contentHeight);
+              scaleFactor = Math.max(0.7, scaleFactor); // Minimum scale factor
               
               // Apply scale factor and check if it fits
               content.style.setProperty('--scale-factor', scaleFactor);
@@ -205,7 +208,8 @@ jobs:
                 const totalHeight = headerHeight + newContentHeight;
                 
                 if (totalHeight > pageHeight * 2) {
-                  scaleFactor *= 0.98; // Reduce by 2% for finer control
+                  scaleFactor *= 0.99; // Reduce by 1% for finer control
+                  scaleFactor = Math.max(0.7, scaleFactor); // Ensure minimum scale
                   content.style.setProperty('--scale-factor', scaleFactor);
                   return checkFit();
                 }
