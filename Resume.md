@@ -16,8 +16,11 @@
 
 ## PROFESSIONAL EXPERIENCE
 
+**Wasilewski Holdings -** *Apr 2025 - Present*  
+President, Founder. Managing ownership stake in organizations and asset management. 
+
 **DayDream Technologies -** *Jan 2024 - Present*  
-CTO, Co-Founder. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including APIs, websites, mobile apps, XR, AI, ML, and AWS.
+CTO, Co-Founder. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including APIs, websites, mobile apps, XR, AI, ML, AWS, and other [internal projects](https://daydreamtechnologies.net/projects.html)
 
 **Kloud Technologies -** *Jan 2025 - Present*  
 CEO, Co-Founder. Overseeing business development, product development, daily opperations for [Cloud Cards](https://www.cloud-cards.link/).
