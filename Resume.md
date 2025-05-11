@@ -17,7 +17,7 @@
 ## PROFESSIONAL EXPERIENCE
 
 **Wasilewski Holdings -** *Apr 2025 - Present*  
-President, Founder. Managing ownership stake in organizations and asset management. 
+President, Founder. Managing ownership stake in organizations and asset management. Supervised contract negotions, business analysis, growth strategies, and decision making processes.
 
 **DayDream Technologies -** *Jan 2024 - Present*  
 CTO, Co-Founder. Leading 30+ interns across 6+ time zones and 7+ concurrent projects including APIs, websites, mobile apps, XR, AI, ML, AWS, and other [internal projects](https://daydreamtechnologies.net/projects.html)
