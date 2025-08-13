@@ -28,8 +28,11 @@ CEO, Co-Founder. Overseeing business development, product development, daily opp
 **PowerShade** *Apr 2025 - Present*  
 CEO, Co-Founder, Software Developer. Overseeing software development, product development, daily opperations for [PowerShade Umbrellas](https://dwasilewski3.github.io/PowerShade-Website/).
 
+**Michigan State University** *Jun 2025 - Sep 2025*
+Website developer for the Office for Civil Rights. Managed updates and implementations for [OCR](https://civilrights.msu.edu), [POE](https://poe.msu.edu/), and [MSU.edu](https://msu.edu). Improved site accessibility by 25% and decreased site load times
+
 **Eide Bailly -** *May 2024 - May 2025*  
-Microsoft Development Intern. Designed and developed custom solutions for clients using Business Central, Azure, Power Platform. Created multiple BC AppSource apps including [Check Extender](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eidebaillyllp%7CAID.multi_line_check_extender%7CPAPPID.c5ab6843-0158-4105-a9de-263cdca4e1ac?tab=Overview)
+Microsoft Development Intern. Designed and developed custom solutions for clients using Business Central, Azure, Power Platform. Created multiple BC AppSource apps including [Check Extender](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eidebaillyllp%7CAID.multi_line_check_extender%7CPAPPID.c5ab6843-0158-4105-a9de-263cdca4e1ac?tab=Overview) and [WireSync 365](https://appsource.microsoft.com/en-us/product/dynamics-365-business-central/PUBID.eidebaillyllp%7CAID.wiresync_365%7CPAPPID.91f7578b-a452-41e5-a22a-f4c4ed2c8263?tab=Overview)
 
 **CasterDepot -** Wayland, MI
  - **Junior Full-Stack Developer -** *July 2023 - Feb 2024*  
