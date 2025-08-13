@@ -3,7 +3,7 @@
 <p align="center">
 <a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a>
 <br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a>
-<br>View my profile on <a href="https://www.cloud-cards.link/DWAS">Cloud Cards</a>
+<br>View my profile on <a href="https://www.cloud-cards.link/david">Cloud Cards</a>
 </p>
 
 ## EDUCATION
