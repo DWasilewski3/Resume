@@ -57,9 +57,19 @@
 
 ## Leadership & Activities
 
-- **Eagle Scout**, Boy Scouts of America; selected for the Governor's Honor Guard on Mackinac Island for three consecutive summers; numerous leadership roles
-- **Founding Member, Senior Project Manager & Chief Diversity Officer**, MSU Software Engineering and Computing Society
-- **Student Advisor**, MSU CSE Advisory Committee & Undergraduate Curriculum Committee (2024–2025) — worked with faculty to improve the undergraduate CSE experience
+<p class="job-org"><strong>Boy Scouts of America</strong></p>
+<p class="job-title"><em>Eagle Scout</em></p>
+
+- Selected for the Governor's Honor Guard on Mackinac Island for three consecutive summers; numerous leadership roles
+- Countless other community service projects totaling 1,000+ hours
+
+<p class="job-org"><strong>MSU Software Engineering and Computing Society</strong></p>
+<p class="job-title"><em>Founding Member, Senior Project Manager &amp; Chief Diversity Officer</em></p>
+
+<p class="job-org"><strong>MSU CSE Advisory Committee &amp; Undergraduate Curriculum Committee</strong></p>
+<p class="job-title"><em>Student Advisor</em> | 2024–2025</p>
+
+- Worked with faculty to improve the undergraduate CSE experience
 
 ## Volunteer Service
 
