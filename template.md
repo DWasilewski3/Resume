@@ -2,46 +2,37 @@
 
 <p align="center">
 <a href="mailto:you@example.com">you@example.com</a>
-<br>City, ST
-<br>Connect with me on <a href="https://www.linkedin.com/in/your-profile/">LinkedIn</a>
+&nbsp;|&nbsp; City, ST
+&nbsp;|&nbsp; <a href="https://www.linkedin.com/in/your-profile/">LinkedIn</a>
 </p>
-
----
 
 ## Education
 
-**University Name** — City, ST
-B.S., Degree Name — *Graduated Month Year*
-Minors: Minor One; Minor Two
-Cumulative GPA: X.XXX
-Relevant Coursework: Course One, Course Two, Course Three
-
----
+<p class="edu-line"><strong>University Name</strong> — City, ST</p>
+<p class="edu-line">B.S., Degree Name — <em>Graduated Month Year</em></p>
+<p class="edu-line">Minors: Minor One; Minor Two</p>
+<p class="edu-line">Cumulative GPA: X.XXX</p>
 
 ## Professional Experience
 
-**[Company Name](https://example.com/)** — City, ST
-*Job Title* | Month Year – Present
+<p class="job-org"><strong><a href="https://example.com/">Company Name</a></strong> — City, ST</p>
+<p class="job-title"><em>Job Title</em> | Month Year – Present</p>
+
 - Achievement or responsibility with measurable impact
 - Another bullet describing scope, ownership, or outcome
 
-**Company Name**
-*Job Title* | Month Year – Month Year
-- Achievement or responsibility with measurable impact
+<p class="job-org"><strong>Company Name</strong></p>
+<p class="job-title"><em>Job Title</em> | Month Year – Month Year</p>
 
----
+- Achievement or responsibility with measurable impact
 
 ## Leadership & Activities
 
 - **Role or Honor**, Organization — short description of impact
 - **Role**, Organization (Year–Year) — short description of impact
 
----
-
 ## Skills
 
-**Category One:** Skill, Skill, Skill
-
-**Category Two:** Skill, Skill, Skill
-
-**Business:** Skill, Skill, Skill
+<p class="skill-line"><strong>Category One:</strong> Skill, Skill, Skill</p>
+<p class="skill-line"><strong>Category Two:</strong> Skill, Skill, Skill</p>
+<p class="skill-line"><strong>Business:</strong> Skill, Skill, Skill</p>
