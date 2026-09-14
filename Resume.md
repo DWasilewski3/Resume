@@ -1,9 +1,9 @@
-# David Wasilewski
+# NAME: David Wasilewski
 
 <p align="center">
 <a href="mailto:dwasilewski393@gmail.com">DWasilewski393@gmail.com</a>
+<br>Grand Rapids, MI
 <br>Connect with me on <a href="https://www.linkedin.com/in/david-wasilewski/">LinkedIn</a>
-<br>View my profile on <a href="https://cloud-cards.link/david">Cloud Cards</a>
 </p>
 
 ---
@@ -63,8 +63,13 @@ Relevant Coursework: Object-Oriented Programming, Data Structures & Algorithms, 
 ## Skills
 
 **Application Architecture:** React, Next.js (SSR/ISR), Vite; REST/JSON API design; webhook-driven cache revalidation; multi-source data aggregation & syndication pipelines
+
 **3D/Graphics & Emerging Tech:** Three.js, WebGL; Model Context Protocol (MCP) integration; Generative AI tooling
+
 **Cloud & Infrastructure:** AWS (Route 53, Amplify); DNS/SSL configuration; Google Workspace & Microsoft 365 administration
+
 **Hardware/Embedded:** NFC integration; solar-powered embedded electronics
+
 **Languages & Tools:** Java, C++, C#, Python, JavaScript, HTML/CSS, Git/GitHub, Raspberry Pi, Arduino, Google Apps Script, Microsoft Power Platform
+
 **Business:** Private equity & M&A, organizational consulting, business strategy, project management, corporate finance, accounting, business law

@@ -124,16 +124,17 @@ jobs:
           async function convert() {
             const md = fs.readFileSync("Resume.md", "utf8");
             
-            // Extract name from the first line
-            const nameMatch = md.match(/^# NAME: (.*)$/m);
-            if (!nameMatch) {
+            // Extract name from the first line: "# NAME: Your Name" (preferred) or "# Your Name"
+            const nameDirective = md.match(/^# NAME:\s*(.+)$/m);
+            const nameHeading = md.match(/^#\s+(.+)$/m);
+            const name = (nameDirective?.[1] || nameHeading?.[1] || "").trim();
+            if (!name) {
               throw new Error("Could not find name in Resume.md. First line should be '# NAME: Your Name'");
             }
-            const name = nameMatch[1].trim();
             const pdfFilename = `${name.replace(/\s+/g, "_")}_Resume.pdf`;
             
-            // Remove the NAME line from the markdown for display and wrap contact info in a div
-            const displayMd = md.replace(/^# NAME: .*$/m, `# ${name}`)
+            // Normalize NAME directive to a display heading and wrap contact info in a div
+            const displayMd = md.replace(/^# NAME:\s*.*$/m, `# ${name}`)
                               .replace(/<p align="center">(.*?)<\/p>/s, '<div class="contact-info">$1</div>');
             const html = marked.parse(displayMd);
             
