@@ -25,7 +25,6 @@ Relevant Coursework: Object-Oriented Programming, Data Structures & Algorithms, 
 - Founded and manage a holding company built to acquire and control ownership stakes in technology-focused startups
 - Oversee a portfolio currently including Cloud Cards and PowerShade, including the full acquisition of Cloud Cards into the portfolio
 - Personally manage legal, tax, and compliance infrastructure across the portfolio — acquisition agreements, multi-entity tax filings, and governance documents — in place of outside counsel
-- Administer DNS, SSL, and email infrastructure across portfolio company domains (AWS Route 53/Amplify, Google Workspace, Microsoft 365)
 **[Cognition Daily](https://cognitiondaily.net/)** — Nonprofit, 501(c)(3)
 *Director & Founder* | September 2025 – Present
 - Founded a nonprofit building a brain-health tracking platform focused on dementia-prevention research and outreach
@@ -42,20 +41,13 @@ Relevant Coursework: Object-Oriented Programming, Data Structures & Algorithms, 
 - Serve as software developer and head of business development, driving product and go-to-market strategy
 **[DayDream Technologies](https://www.daydreamtechnologies.net/)** — East Lansing, MI (Hybrid)
 *Chief Technology Officer & Co-Founder* | February 2024 – Present (Part-time)
-- CTO and co-founder of a student-founded technology consulting company delivering websites, mobile apps, XR, AI/ML, and AWS solutions
-- Manage 30+ team members across 6+ time zones on 7+ concurrent client projects
+- CTO and co-founder of a student-founded technology consulting company delivering websites, mobile apps, AI/ML, and AWS solutions
+- Manage 20+ team members across 6+ time zones on 7+ concurrent client projects
 - Shipped products including community event-aggregation platforms pulling from 15+ sources into unified calendar/map views, and browser-based 3D experiences built with Three.js
-- Complete one pro-bono project each quarter for a Grand Rapids-area nonprofit
+- Complete at least one pro-bono project each quarter for nonprofit organizations
 **Eide Bailly LLP**
 *Microsoft Development Intern* | May 2024 – May 2025
 - Developed custom Microsoft and Salesforce solutions for clients as part of the firm's technology consulting practice
----
- 
-## Selected Projects
- 
-- **Linear Algebra Python Library** — Created and maintain an open-source Python library to help students learn linear algebra; published on GitHub and PyPI
-- **MSU Bus Route Redesign** — SpartaHack9 submission redesigning and modeling new campus bus routes; won the Best Hack for Sustainability award
-- **MSU Student WiFi Helper** — SpartaHack8 submission; built a machine-learning image-processing model to identify devices and assist students/faculty connecting to campus WiFi; won Best Use of Velo by Wix (MLH prize)
 ---
  
 ## Leadership & Activities
