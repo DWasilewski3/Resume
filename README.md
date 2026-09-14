@@ -93,6 +93,54 @@ You can find the generated PDF in:
 1. The repository as `David_Wasilewski_Resume.pdf`
 2. The GitHub Actions artifacts section
 
+## Baseline: Knowing When You Have Two Pages
+
+The Markdown file has **no page markers**. Page count is decided only when the GitHub Action lays out an **A4** PDF with the workflow CSS. Treat “two pages” as **one sheet printed front and back**.
+
+### Source of truth
+
+1. Push changes (or run the workflow), then open the generated `*_Resume.pdf`.
+2. Check the PDF page count. That number is authoritative.
+3. Do **not** rely on GitHub Markdown preview, VS Code wrap, blank lines, or `---` separators — those do not match A4 print layout.
+
+### Print layout this template uses
+
+| Setting | Value |
+|---|---|
+| Page size | A4 (297mm tall) |
+| Margins | Top 10mm, bottom 20mm, left/right 20mm |
+| Approx. printable height | ~267mm |
+| Body text | Arial, 10pt, line-height 1.6 (~45–50 pure body lines per page) |
+
+Real resumes fill space faster than pure body text because of the name/contact header, `##` section headings, horizontal rules, job title blocks, and bullet margins.
+
+### What consumes space fastest
+
+| Block | Relative cost |
+|---|---|
+| Name + contact block + `---` | Fixed header band |
+| Each `##` section + `---` | Heading + vertical gap |
+| Each job (title, role/date line, 2–3 bullets) | **Largest consumer** |
+| Skills with blank lines between categories | More than a single dense paragraph |
+
+**Primary density driver:** number of roles × bullets per role — not raw `Resume.md` line count.
+
+### Practical edit rule for this template
+
+- About **6 roles with 2–3 bullets each**, plus Education, Leadership, and multi-category Skills, is typically **at or past two pages**.
+- Adding another role, or a third bullet on several existing roles, is usually what forces a **third** page.
+- If Experience already has ~6 multi-bullet jobs and Skills is multi-category, assume **two pages (front and back)** until the PDF says otherwise.
+
+### Required first-line format
+
+`Resume.md` must start with:
+
+```markdown
+# NAME: Your Full Name
+```
+
+The workflow uses that line to name the PDF (`Your_Full_Name_Resume.pdf`) and rewrites it to a display heading in the PDF. See `template.md` for the full expected structure.
+
 ## Best Practices
 
 1. **Keep it Professional**
@@ -104,6 +152,7 @@ You can find the generated PDF in:
    - Start with most recent experiences
    - Use bullet points for clarity
    - Include relevant metrics and achievements
+   - Stay within the two-page baseline above unless you intentionally want a longer CV
 
 3. **Formatting Tips**
    - Use proper heading hierarchy
